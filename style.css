@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: block;
+    background-image: linear-gradient(rgb(14, 3, 82), rgb(108, 5, 210));
+    height: 100vh;
+    overflow: hidden;
+}
+
+.Menu_Inicial{
+    
+    margin: 25px auto;
+    width: 800px;
+    height: 650px;
+    border: 1px solid black;
+    display: flex;
+}
+.Logo_Menu_Login{
+   width: 400px;
+   margin-top: 20%;
+}
+
+.Menu_login{
+   
+    width: 400px;
+    height: 650px;
+    border: 1px solid black;
+    display: block;
+    background-image: linear-gradient(rgb(62, 1, 91),rgb(191, 0, 255));
+}
+
+.Form_Login{
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Form_Login label{
+  
+ display: block;
+ font-size: 20px;
+ margin-top: 15px;
+}
+.Form_Login input{
+    color: white;
+    background-color: rgb(46, 45, 45);
+    margin:  auto;
+    display: block;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+
+.btn_Login{
+margin-top: 50px;
+width: 200px;
+height: 40px;
+border-radius: 5px;
+font-size: 25px;
+outline: none;
+border: 1px solid black;
+background-color:rgb(167, 0, 223);
+transition: 2s;
+}
+.btn_Login:hover{
+
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+    }
+
+.Menu_Cadastro{
+    display: none;
+    width: 400px;
+    height: 650px;
+    border: 1px solid black;
+    background-image: linear-gradient(purple, blue);
+    animation: none;
+
+    
+}
+
+@keyframes menus_cadastro {
+    0%{
+     opacity: 0;
+     background-image: linear-gradient(rgb(217, 20, 207),blue);
+    }50%{
+        background-image: linear-gradient(rgb(153, 3, 123),blue);
+    }80%{
+        background-image: linear-gradient(purple, blue);
+    } 100%{
+     opacity: 1;
+    }
+}
+
+
+@keyframes menus_login {
+    0%{
+     opacity: 0;
+     background-image: linear-gradient(purple,rgb(189, 7, 221));
+    }50%{
+        background-image: linear-gradient(purple,rgb(189, 7, 221));
+    }80%{
+        background-image: linear-gradient(purple, rgb(189, 7, 221));
+    } 100%{
+     opacity: 1;
+    }
+}
+
+.Form_Cadastro{
+    
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Form_Cadastro label{
+    display: block;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.Form_Cadastro input{
+    color: white;
+    background-color: rgb(46, 45, 45);
+    margin:  auto;
+    display: block;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.btn_Cadastro{
+    margin-top: 50px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 25px;
+    outline: none;
+    border: 1px solid black;
+    background-color:blue;
+    transition: 2s;
+    }
+    .btn_Cadastro:hover{
+    
+        border: 1px solid rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        color: white;
+        
+        }
+
+    .Msg_Login{
+        background-image: linear-gradient(Black, rgba(35, 34, 114, 0.592));
+        width: 400px;
+        height: 650px;
+        border: none;
+        color: white;
+        display: block;
+        
+    }
+    .Msg_Login h2{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    .Msg_Login p{
+        margin: 60px auto;
+        width: 300px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .Msg_Cadastro{
+        background-image: linear-gradient(Black, rgba(35, 34, 114, 0.592));
+        width: 400px;
+        height: 650px;
+        border: none;
+        color: white;
+        display: none;
+       
+    }
+
+    .Msg_Cadastro h2{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    .Msg_Cadastro p{
+        margin: 60px auto;
+        width: 300px;
+        text-align: center;
+        font-size: 25px;
+    }
