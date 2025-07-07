@@ -13,12 +13,6 @@ Um chat fictício feito para a Bat-Família se comunicar em tempo real — com a
 
 ---
 
-## 📸 Demonstração
-
-*(adicione aqui um GIF ou imagem do chat rodando, se quiser)*
-
----
-
 ## 🔐 Funcionalidades
 
 - Tela de login com autenticação de usuário
