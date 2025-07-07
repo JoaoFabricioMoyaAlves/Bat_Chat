@@ -41,4 +41,4 @@ Um chat fictício feito para a Bat-Família se comunicar em tempo real — com a
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/bat-chat.git
+   git clone https://github.com/JoaoFabricioMoyaAlves/Bat_Chat.git
